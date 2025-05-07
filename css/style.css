@@ -1,0 +1,6 @@
+/* Primero limpio los márgenes, paddings, y borders */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
