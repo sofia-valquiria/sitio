@@ -3,10 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS del sitio -->
     <link rel="stylesheet" href="./css/style.css">
     <title>Pangea</title>
 </head>
 <body>
-    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
+            </div>
+          </nav>     
+    </header>
+    <main>
+        <div class="container">
+            <h1>FormSubmit Demo</h1>
+            <form target="_blank" action="https://formsubmit.co/sandovalsofi99@gmail.com" method="POST">
+              <div class="form-group">
+                <div class="form-row">
+                  <div class="col">
+                    <input type="checkbox" name="hamburguesas" placeholder="Hamburguesas">
+                    <p>Hamburguesas</p>
+                    <input type="number" name="cantidad-de-hamburguesas" class="form-control" placeholder="Cantidad" >
+                  </div>
+                  <div class="col">
+                    <input type="checkbox" name="pizzas" placeholder="Hamburguesas">
+                    <p>Pizzas</p>
+                    <input type="number" name="cantidad-de-pizzas" class="form-control" placeholder="Cantidad">
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <p>Algo que nos quieras decir sobre tu pedido?</p>
+                <textarea placeholder="Pedidos especiales" class="form-control" name="pedido-especial" rows="10"></textarea>
+              </div>
+              <button type="submit" class="btn btn-lg btn-dark btn-block">Ordenar</button>
+            </form>
+          </div>
+        <section>
+            
+        </section>
+    </main>
+
+<!-- JS de Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!-- JS del sitio -->
+<script src="./js/script.js"></script>
 </body>
 </html>
